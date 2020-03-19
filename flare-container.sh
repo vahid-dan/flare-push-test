@@ -57,7 +57,7 @@ git checkout $GIT_REMOTE_BRANCH
 git pull
 echo $(date) >> date.log
 git add .
-git commit -m "Add"
+git commit -m "Add current date"
 git push
 
 # Remove .ssh directory for security purposes
